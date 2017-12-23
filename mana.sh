@@ -22,13 +22,6 @@ do
   xdotool key ctrl+shift+F2
   sleep $PotSleep
 
-#  # Check for people
-#  rgb=$(grabc & xdotool mousemove 1537 558 click 1)
-#  if [ "$rgb" != "#4a4a4a" ]; then
-#	open something
-#	fg
-#  fi
-
   # If we have looped 5 times, drink an extra potion
   if ! (( $int % 5 ));then
 	echo -e "\nMade it"
