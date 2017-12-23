@@ -1,5 +1,8 @@
+# Gets the current user
+user=$(whoami)
+
 # Changes to the desktop
-cd /home/tibia/Desktop
+cd /home/$user/Desktop
 
 # Gets the latest Tibia version
 wget http://download.tibia.com/tibia.x64.tar.gz
